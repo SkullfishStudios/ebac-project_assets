@@ -2683,6 +2683,62 @@ AnimationClip:
     path: SPR_Astronaut/Hips/Spine/Head_1/Astronaut_Face/L_Eye/L_Eye_Open
     classID: 1
     script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 3.3333333
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: SPR_Astronaut/Hips/Spine/Head_1/Astronaut_Face/Mouth/Mouth_Open
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 3.3333333
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: SPR_Astronaut/Hips/Spine/Head_1/Astronaut_Face/Mouth/Mouth_Normal
+    classID: 1
+    script: {fileID: 0}
   m_PPtrCurves: []
   m_SampleRate: 60
   m_WrapMode: 0
@@ -2910,6 +2966,20 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 1003638430
+      attribute: 2086281974
+      script: {fileID: 0}
+      typeID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2990526837
+      attribute: 2086281974
+      script: {fileID: 0}
+      typeID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1019460141
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -10675,6 +10745,62 @@ AnimationClip:
     path: SPR_Astronaut/Hips/Spine/Head_1/Astronaut_Face/L_Eyebrow
     classID: 4
     script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 3.3333333
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: SPR_Astronaut/Hips/Spine/Head_1/Astronaut_Face/Mouth/Mouth_Open
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 3.3333333
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: SPR_Astronaut/Hips/Spine/Head_1/Astronaut_Face/Mouth/Mouth_Normal
+    classID: 1
+    script: {fileID: 0}
   m_EulerEditorCurves:
   - curve:
       serializedVersion: 2
@@ -10683,7 +10809,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: SPR_Astronaut/Hips/R_Leg/R_Leg2/R_Foot
+    path: SPR_Astronaut/Hips/R_Leg/R_Leg2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10693,7 +10819,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: SPR_Astronaut/Hips/R_Leg/R_Leg2/R_Foot
+    path: SPR_Astronaut/Hips/R_Leg/R_Leg2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10703,7 +10829,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: SPR_Astronaut/Hips/R_Leg/R_Leg2/R_Foot
+    path: SPR_Astronaut/Hips/R_Leg/R_Leg2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10713,7 +10839,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: SPR_Astronaut/Hips/Spine/R_Arm
+    path: SPR_Astronaut/Hips/Spine/L_Arm/L_Arm2/L_Hand
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10723,7 +10849,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: SPR_Astronaut/Hips/Spine/R_Arm
+    path: SPR_Astronaut/Hips/Spine/L_Arm/L_Arm2/L_Hand
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10733,7 +10859,97 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: SPR_Astronaut/Hips/Spine/R_Arm
+    path: SPR_Astronaut/Hips/Spine/L_Arm/L_Arm2/L_Hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: SPR_Astronaut/Hips/Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: SPR_Astronaut/Hips/Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: SPR_Astronaut/Hips/Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: SPR_Astronaut/Hips/L_Leg/L_Leg2/L_Foot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: SPR_Astronaut/Hips/L_Leg/L_Leg2/L_Foot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: SPR_Astronaut/Hips/L_Leg/L_Leg2/L_Foot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: SPR_Astronaut/Hips/Spine/R_Arm/R_Arm2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: SPR_Astronaut/Hips/Spine/R_Arm/R_Arm2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: SPR_Astronaut/Hips/Spine/R_Arm/R_Arm2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10833,7 +11049,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: SPR_Astronaut/Hips/Spine/Head_1
+    path: SPR_Astronaut/Hips/Spine/L_Arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10843,7 +11059,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: SPR_Astronaut/Hips/Spine/Head_1
+    path: SPR_Astronaut/Hips/Spine/L_Arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10853,7 +11069,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: SPR_Astronaut/Hips/Spine/Head_1
+    path: SPR_Astronaut/Hips/Spine/L_Arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10863,7 +11079,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: SPR_Astronaut/Hips/R_Leg/R_Leg2
+    path: SPR_Astronaut/Hips/R_Leg/R_Leg2/R_Foot
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10873,7 +11089,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: SPR_Astronaut/Hips/R_Leg/R_Leg2
+    path: SPR_Astronaut/Hips/R_Leg/R_Leg2/R_Foot
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10883,37 +11099,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: SPR_Astronaut/Hips/R_Leg/R_Leg2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: SPR_Astronaut/Hips/L_Leg/L_Leg2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: SPR_Astronaut/Hips/L_Leg/L_Leg2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: SPR_Astronaut/Hips/L_Leg/L_Leg2
+    path: SPR_Astronaut/Hips/R_Leg/R_Leg2/R_Foot
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10953,7 +11139,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: SPR_Astronaut/Hips/Spine
+    path: SPR_Astronaut/Hips/Spine/R_Arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10963,7 +11149,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: SPR_Astronaut/Hips/Spine
+    path: SPR_Astronaut/Hips/Spine/R_Arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10973,7 +11159,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: SPR_Astronaut/Hips/Spine
+    path: SPR_Astronaut/Hips/Spine/R_Arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10983,7 +11169,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: SPR_Astronaut/Hips/Spine/L_Arm/L_Arm2/L_Hand
+    path: SPR_Astronaut/Hips/L_Leg/L_Leg2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10993,7 +11179,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: SPR_Astronaut/Hips/Spine/L_Arm/L_Arm2/L_Hand
+    path: SPR_Astronaut/Hips/L_Leg/L_Leg2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11003,7 +11189,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: SPR_Astronaut/Hips/Spine/L_Arm/L_Arm2/L_Hand
+    path: SPR_Astronaut/Hips/L_Leg/L_Leg2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11013,7 +11199,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: SPR_Astronaut/Hips/Spine/R_Arm/R_Arm2
+    path: SPR_Astronaut/Hips/Spine/Head_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11023,7 +11209,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: SPR_Astronaut/Hips/Spine/R_Arm/R_Arm2
+    path: SPR_Astronaut/Hips/Spine/Head_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11033,37 +11219,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: SPR_Astronaut/Hips/Spine/R_Arm/R_Arm2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: SPR_Astronaut/Hips/L_Leg/L_Leg2/L_Foot
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: SPR_Astronaut/Hips/L_Leg/L_Leg2/L_Foot
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: SPR_Astronaut/Hips/L_Leg/L_Leg2/L_Foot
+    path: SPR_Astronaut/Hips/Spine/Head_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11094,36 +11250,6 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
     path: SPR_Astronaut/Hips/Spine/Head_1/Antennae_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: SPR_Astronaut/Hips/Spine/L_Arm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: SPR_Astronaut/Hips/Spine/L_Arm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: SPR_Astronaut/Hips/Spine/L_Arm
     classID: 4
     script: {fileID: 0}
   - curve:
